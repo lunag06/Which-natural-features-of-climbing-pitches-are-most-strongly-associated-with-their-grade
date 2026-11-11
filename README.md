@@ -29,8 +29,11 @@ You'll have to run the codes in the following order :
 
 - Data annotation:
   Step 1 : 1_SplitingPitchesEn.ipynb (English) or 1_SplitLongueursFR.ipynb (French)
+  
   Step 2 : 2_NumberOfTerms_AND_Sequence_ExtractionEN.ipynb (English) or 2_ExtractionNbTermes_ET_SequencesFR.ipynb (French)
+  
   Step 3 : 3_WeightsAnnotationEN.ipynb (English) or 3_PonderationAnnotationFR.ipynb (French)
+  
   Step 4 : 4_WeightScoresEN.ipynb or 4_ScorePonderationFR.ipynb (French)
   
 - Data analysis:
