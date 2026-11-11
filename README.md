@@ -7,21 +7,21 @@ Here, you'll find our paper as well as all data and codes to replicate our study
 All codes are available in French (language we used) and in English. Here's a quick description of all codes:
 
 - ScrapingCodePropreEn.ipynb / ScrapingCodePropreFR.ipynb : code we used to scrap the data from CamptoCamp API
-- 
+  
 - 1_SplitingPitchesEn.ipynb / 1_SplitLongueursFR.ipynb : code that cleans data and split routes per pitches
-- 
+  
 - 2_NumberOfTerms_AND_Sequence_ExtractionEN.ipynb / 2_ExtractionNbTermes_ET_SequencesFR.ipynb : code that extracts the number each natural element per description (so per pitch).
-- 
+ 
 - 3_WeightsAnnotationEN.ipynb / 3_PonderationAnnotationFR.ipynb (French): code that extracts all couples with one natural element and one related adjective.
-- 
+  
 - 4_WeightScoresEN.ipynb / 4_ScorePonderationFR.ipynb (French): code that attributes a grade to the couples the most present detected in the previous notebook.
-- 
+  
 -  AnalyseModeleATotalFR.ipynb / AnalysisModelATotalEN.ipynb: model A analysis
--  
+ 
  - AnalyseModeleBTotalFR.ipynb / AnalysisModelBTotalEN.ipynb: model B analysis
- - 
+   
  - AnalyseModeleCTotalFR.ipynb / AnalysisModelCTotalEN.ipynb: model C analysis
- - 
+   
  - AnalyseModeleDTotalFR.ipynb / AnalysisModelDTotalEN.ipynb: model D analysis
 
 All data computed during each step of the analysis are available in the Data folder
