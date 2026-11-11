@@ -28,17 +28,17 @@ You'll have to run the codes in the following order :
   ScrapingCodePropreEn.ipynb (English) or ScrapingCodePropreFR.ipynb (French)
 
 - Data annotation:
-  1_SplitingPitchesEn.ipynb (English) or 1_SplitLongueursFR.ipynb (French)
-  2_NumberOfTerms_AND_Sequence_ExtractionEN.ipynb (English) or 2_ExtractionNbTermes_ET_SequencesFR.ipynb (French)
-  3_WeightsAnnotationEN.ipynb (English) or 3_PonderationAnnotationFR.ipynb (French)
-  4_WeightScoresEN.ipynb or 4_ScorePonderationFR.ipynb (French)
+  Step 1 : 1_SplitingPitchesEn.ipynb (English) or 1_SplitLongueursFR.ipynb (French)
+  Step 2 : 2_NumberOfTerms_AND_Sequence_ExtractionEN.ipynb (English) or 2_ExtractionNbTermes_ET_SequencesFR.ipynb (French)
+  Step 3 : 3_WeightsAnnotationEN.ipynb (English) or 3_PonderationAnnotationFR.ipynb (French)
+  Step 4 : 4_WeightScoresEN.ipynb or 4_ScorePonderationFR.ipynb (French)
   
 - Data analysis:
   Run those 4 notebooks in whatever order suits you better:
   
-  AnalyseModeleATotalFR.ipynb / AnalysisModelATotalEN.ipynb
-  AnalyseModeleBTotalFR.ipynb / AnalysisModelBTotalEN.ipynb
-  AnalyseModeleCTotalFR.ipynb / AnalysisModelCTotalEN.ipynb
-  AnalyseModeleDTotalFR.ipynb / AnalysisModelDTotalEN.ipynb
+  AnalysisModelATotalEN.ipynb (English) / AnalyseModeleATotalFR.ipynb (French) 
+  AnalysisModelBTotalEN.ipynb (English) / AnalyseModeleBTotalFR.ipynb (French) 
+  AnalysisModelCTotalEN.ipynb (English) / AnalyseModeleCTotalFR.ipynb (French) 
+  AnalysisModelDTotalEN.ipynb (English) / AnalyseModeleDTotalFR.ipynb (French)
   
   Then, run this final notebook to get the comparison between the models : ComparaisonModeles.ipynb
