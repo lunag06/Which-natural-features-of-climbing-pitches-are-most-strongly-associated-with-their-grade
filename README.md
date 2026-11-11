@@ -15,6 +15,8 @@ All codes are available in French (language we used) and in English. Here's a qu
  - AnalyseModeleCTotalFR.ipynb / AnalysisModelCTotalEN.ipynb: model C analysis
  - AnalyseModeleDTotalFR.ipynb / AnalysisModelDTotalEN.ipynb: model D analysis
 
+All data computed during each step of the analysis are available in the Data folder
+
 # How to replicate the analysis ?
 For the whole replication, we recommand using the same library versions we used:
 Python 3.13.17
