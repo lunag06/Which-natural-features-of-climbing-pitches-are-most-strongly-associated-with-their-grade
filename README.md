@@ -24,10 +24,11 @@ Python 3.13.17
 
 You'll have to run the codes in the following order : 
 
-- Scraping :
+- ## Scraping :
   ScrapingCodePropreEn.ipynb (English) or ScrapingCodePropreFR.ipynb (French)
 
-- Data annotation:
+- ## Data annotation:
+  
   Step 1 : 1_SplitingPitchesEn.ipynb (English) or 1_SplitLongueursFR.ipynb (French)
   
   Step 2 : 2_NumberOfTerms_AND_Sequence_ExtractionEN.ipynb (English) or 2_ExtractionNbTermes_ET_SequencesFR.ipynb (French)
@@ -36,7 +37,7 @@ You'll have to run the codes in the following order :
   
   Step 4 : 4_WeightScoresEN.ipynb or 4_ScorePonderationFR.ipynb (French)
   
-- Data analysis:
+- ## Data analysis:
   Run those 4 notebooks in whatever order suits you better:
   
   AnalysisModelATotalEN.ipynb (English) / AnalyseModeleATotalFR.ipynb (French) 
