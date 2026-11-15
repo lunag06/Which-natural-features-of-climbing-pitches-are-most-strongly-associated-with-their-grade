@@ -38,7 +38,7 @@ Python 3.13.17. Please refer to requirements.txt for all librairies versions.
 You'll have to run the codes in the following order : 
 
 - ### Scraping :
- [ScrapingCodePropreFR](ScrapingCodePropreFR.ipynb) or  [ScrapingCodePropreEn](ScrapingCodePropreEn.ipynb)
+  [ScrapingCodePropreFR](ScrapingCodePropreFR.ipynb) or  [ScrapingCodePropreEn](ScrapingCodePropreEn.ipynb)
 
 - ### Data annotation:
   
