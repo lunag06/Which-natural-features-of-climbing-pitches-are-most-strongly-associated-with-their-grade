@@ -28,6 +28,8 @@ All codes are available in French (language we used) and in English. Language is
 
  - [ComparaisonModelesFR](ComparaisonModelesFR.ipynb) / [ModelsComparisonEN](ModelsComparisonEN.ipynb) : comparison between the four models
 
+ - You'll also find notebooks to test each model analysis on smaller samples (eg : [AnalyseModeleA300FR](AnalyseModeleA300FR.ipynb) / [ AnalysisModelA300EN]( AnalysisModelA300EN.ipynb))
+
 All data computed during each step of the analysis are available in the Data folder
 
 ## How to replicate the analysis ?
