@@ -1,5 +1,5 @@
 # Which natural features of climbing pitches are most strongly associated with their grade?
-This project aims to determine whether there's a clear link between a route natural features and its grade. More specifically, we are interested in determing which of these natural elements impact the more the grade. To do so, we scraped data with Camptocamp API, we annotated the data and we implemented four Bayesian cumulative ordinal logistic mixed-effects models (bambi/PyMC). 
+This project aims to determine whether there's a clear link between a route natural features and its grade. More specifically, we are interested in determing which of these natural elements are most strongly associated with the grade. To do so, we scraped data with Camptocamp API, we annotated the data and we implemented four Bayesian cumulative ordinal logistic mixed-effects models (bambi/PyMC). 
 
 # What documents are available ?
 Here, you'll find our paper as well as all data and codes to replicate our study.
@@ -14,7 +14,7 @@ All codes are available in French (language we used) and in English. Here's a qu
  
 - 3_WeightsAnnotationEN.ipynb / 3_PonderationAnnotationFR.ipynb (French): code that extracts all couples with one natural element and one related adjective.
   
-- 4_WeightScoresEN.ipynb / 4_ScorePonderationFR.ipynb (French): code that attributes a grade to the couples the most present detected in the previous notebook.
+- 4_WeightScoresEN.ipynb / 4_ScorePonderationFR.ipynb (French): code that assigns a score to the most frequent (element, qualifier) pairs.
   
 -  AnalyseModeleATotalFR.ipynb / AnalysisModelATotalEN.ipynb: model A analysis
  
