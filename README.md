@@ -3,7 +3,7 @@ This project studies the association between the natural terrain features mentio
 
 The full paper is available here: [our paper](GourrierLuna2026_11_15.pdf)
 
-# What documents are available ?
+## What documents are available ?
 Here, you'll find our paper as well as all data and codes to replicate our study.
 
 All codes are available in French (language we used) and in English. Here's a quick description of all codes:
@@ -30,17 +30,17 @@ All codes are available in French (language we used) and in English. Here's a qu
 
 All data computed during each step of the analysis are available in the Data folder
 
-# How to replicate the analysis ?
+## How to replicate the analysis ?
 For the whole replication, we recommand using the same library versions we used:
 Python 3.13.17. Please refer to requirements.txt for all librairies versions.
 
 
 You'll have to run the codes in the following order : 
 
-- ## Scraping :
+- ### Scraping :
   ScrapingCodePropreEn.ipynb (English) or ScrapingCodePropreFR.ipynb (French)
 
-- ## Data annotation:
+- ### Data annotation:
   
   Step 1 : 1_SplitingPitchesEn.ipynb (English) or 1_SplitLongueursFR.ipynb (French)
   
@@ -50,7 +50,7 @@ You'll have to run the codes in the following order :
   
   Step 4 : 4_WeightScoresEN.ipynb or 4_ScorePonderationFR.ipynb (French)
   
-- ## Data analysis:
+- ### Data analysis:
   Run those 4 notebooks in whatever order suits you better:
   
   AnalysisModelATotalEN.ipynb (English) / AnalyseModeleATotalFR.ipynb (French)
@@ -63,6 +63,6 @@ You'll have to run the codes in the following order :
   
   Then, run this final notebook to get the comparison between the models : ComparaisonModelesFR.ipynb / ModelsComparisonEN.ipynb
 
-# Notes 
+## Notes 
 The results of the paper rely on data collected on 2026-09-07. Camptocamp keeps evolving, so running the scraping again will return a different dataset. To reproduce the paper exactly, start from Step 1 with the data provided in the Data folder.
 The dictionary of natural elements and the scores assigned to the pairs were built by hand. The descriptions and the dictionary are in French, including in the English notebooks.
