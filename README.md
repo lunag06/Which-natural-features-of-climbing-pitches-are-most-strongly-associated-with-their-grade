@@ -28,7 +28,7 @@ All data computed during each step of the analysis are available in the Data fol
 
 # How to replicate the analysis ?
 For the whole replication, we recommand using the same library versions we used:
-Python 3.13.17
+Python 3.13.17. Please refer to requirements.txt for all librairies versions.
 
 
 You'll have to run the codes in the following order : 
